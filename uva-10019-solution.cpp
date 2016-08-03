@@ -6,7 +6,6 @@ using namespace std;
 
 int b1(int n){
     int ret = 0;
-
     while(n){
         if(n & 1) ret++;
         n >>= 1;
@@ -40,7 +39,7 @@ int main(){
 
     while(T--){
         scanf("%d",&N);
-        printf("%d %d\n",b1(N),b2(N));
+        printf("%d %d\n",b1(N), b2(N));
     }
 
     return 0;
